@@ -4,7 +4,7 @@ public class Cat {
 
 //    When to make something static or non static?
 //    If something has to be at the class level which shares value
-//    between objects then make it static otherwise not. 
+//    between objects then make it static otherwise not.
     public static final int MAX_LIVES = 9;
 
     private static int catCount = 0;
