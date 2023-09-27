@@ -4,7 +4,9 @@ public class Multithreading {
 
     public static void main(String[] args) {
 
-        Multithreading myThing = new Multithreading();
-        myThing.start();  
+        MultithreadThing myThing = new MultithreadThing();
+        MultithreadThing myThing2 = new MultithreadThing();
+        myThing.start();
+        myThing2.start();
     }
 }
