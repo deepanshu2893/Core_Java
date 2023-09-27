@@ -11,8 +11,4 @@ public class NoMultipleInheritance {
         Cog myCog = new Cog();
         myCog.fetch();
     }
-
-
-
-
 }
