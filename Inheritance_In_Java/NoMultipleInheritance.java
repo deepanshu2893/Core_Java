@@ -7,6 +7,9 @@ public class NoMultipleInheritance {
 
         myCat.makeNoise();
         myCat.name = "Kramer";
+
+        Cog myCog = new Cog();
+        myCog.fetch();
     }
 
 
